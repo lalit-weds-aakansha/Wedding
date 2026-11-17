@@ -1,0 +1,12 @@
+node_modules
+dist
+.env
+.env.local
+
+server/data
+_backup-*
+_test-data
+_test-photos
+_mock-drive-key.json
+*-key.json
+_test-cache

@@ -1,0 +1,285 @@
+{
+ "_note": "Identities were clustered with the real model and then verified by eye on face contact sheets: A = the bride (white saree), B = older woman in red/blue saree, C = man with glasses. Only photos that contain A, B or C are listed.",
+ "FD0A2711.JPG": [
+  "A"
+ ],
+ "FD0A2713.JPG": [
+  "A"
+ ],
+ "FD0A2714.JPG": [
+  "A"
+ ],
+ "FD0A2715.JPG": [
+  "A"
+ ],
+ "FD0A2716.JPG": [
+  "A"
+ ],
+ "FD0A2717.JPG": [
+  "A"
+ ],
+ "FD0A2718.JPG": [
+  "A"
+ ],
+ "FD0A2719.JPG": [
+  "A"
+ ],
+ "FD0A2721.JPG": [
+  "A"
+ ],
+ "FD0A2722.JPG": [
+  "A"
+ ],
+ "FD0A2723.JPG": [
+  "A"
+ ],
+ "FD0A2724.JPG": [
+  "A"
+ ],
+ "FD0A2725.JPG": [
+  "A"
+ ],
+ "FD0A2726.JPG": [
+  "A"
+ ],
+ "FD0A2727.JPG": [
+  "A"
+ ],
+ "FD0A2728.JPG": [
+  "A"
+ ],
+ "FD0A2729.JPG": [
+  "A"
+ ],
+ "FD0A2730.JPG": [
+  "A"
+ ],
+ "FD0A2732.JPG": [
+  "A"
+ ],
+ "FD0A2733.JPG": [
+  "A"
+ ],
+ "FD0A2734.JPG": [
+  "A"
+ ],
+ "FD0A2735.JPG": [
+  "A"
+ ],
+ "FD0A2736.JPG": [
+  "A"
+ ],
+ "FD0A2737.JPG": [
+  "A"
+ ],
+ "FD0A2738.JPG": [
+  "A"
+ ],
+ "FD0A2742.JPG": [
+  "B",
+  "C"
+ ],
+ "FD0A2743.JPG": [
+  "B",
+  "C"
+ ],
+ "FD0A2745.JPG": [
+  "C"
+ ],
+ "FD0A2746.JPG": [
+  "B",
+  "C"
+ ],
+ "FD0A2747.JPG": [
+  "B",
+  "C"
+ ],
+ "FD0A2748.JPG": [
+  "B",
+  "C"
+ ],
+ "FD0A2751.JPG": [
+  "B"
+ ],
+ "FD0A2754.JPG": [
+  "B"
+ ],
+ "FD0A2755.JPG": [
+  "B",
+  "C"
+ ],
+ "_faces": {
+  "A": [
+   [
+    "FD0A2711.JPG",
+    0
+   ],
+   [
+    "FD0A2713.JPG",
+    0
+   ],
+   [
+    "FD0A2716.JPG",
+    0
+   ],
+   [
+    "FD0A2717.JPG",
+    0
+   ],
+   [
+    "FD0A2718.JPG",
+    0
+   ],
+   [
+    "FD0A2714.JPG",
+    0
+   ],
+   [
+    "FD0A2715.JPG",
+    0
+   ],
+   [
+    "FD0A2734.JPG",
+    0
+   ],
+   [
+    "FD0A2736.JPG",
+    0
+   ],
+   [
+    "FD0A2735.JPG",
+    0
+   ],
+   [
+    "FD0A2737.JPG",
+    0
+   ],
+   [
+    "FD0A2738.JPG",
+    0
+   ],
+   [
+    "FD0A2721.JPG",
+    0
+   ],
+   [
+    "FD0A2722.JPG",
+    0
+   ],
+   [
+    "FD0A2726.JPG",
+    0
+   ],
+   [
+    "FD0A2727.JPG",
+    0
+   ],
+   [
+    "FD0A2728.JPG",
+    0
+   ],
+   [
+    "FD0A2729.JPG",
+    0
+   ],
+   [
+    "FD0A2730.JPG",
+    0
+   ],
+   [
+    "FD0A2719.JPG",
+    0
+   ],
+   [
+    "FD0A2723.JPG",
+    0
+   ],
+   [
+    "FD0A2724.JPG",
+    0
+   ],
+   [
+    "FD0A2725.JPG",
+    0
+   ],
+   [
+    "FD0A2732.JPG",
+    0
+   ],
+   [
+    "FD0A2733.JPG",
+    0
+   ]
+  ],
+  "B": [
+   [
+    "FD0A2742.JPG",
+    0
+   ],
+   [
+    "FD0A2746.JPG",
+    4
+   ],
+   [
+    "FD0A2751.JPG",
+    0
+   ],
+   [
+    "FD0A2755.JPG",
+    0
+   ],
+   [
+    "FD0A2747.JPG",
+    3
+   ],
+   [
+    "FD0A2743.JPG",
+    2
+   ],
+   [
+    "FD0A2748.JPG",
+    0
+   ],
+   [
+    "FD0A2754.JPG",
+    0
+   ]
+  ],
+  "C": [
+   [
+    "FD0A2742.JPG",
+    2
+   ],
+   [
+    "FD0A2743.JPG",
+    1
+   ],
+   [
+    "FD0A2755.JPG",
+    2
+   ],
+   [
+    "FD0A2746.JPG",
+    2
+   ],
+   [
+    "FD0A2747.JPG",
+    2
+   ],
+   [
+    "FD0A2745.JPG",
+    1
+   ],
+   [
+    "FD0A2748.JPG",
+    3
+   ]
+  ],
+  "Z": [
+   [
+    "FD0A2752.JPG",
+    0
+   ]
+  ]
+ }
+}
