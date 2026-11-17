@@ -20,10 +20,24 @@ function weddingMeta(siteUrl: string): Plugin {
   };
 }
 
+/** Source code references public assets as "/images/..." — prefix them when deployed under a subpath. */
+function publicBase(base: string): Plugin {
+  return {
+    name: "public-base",
+    enforce: "pre",
+    transform(code, id) {
+      if (base === "/" || !/\/src\/.*\.(tsx?|jsx?)$/.test(id.split("\\").join("/"))) return null;
+      return code.replace(/(["'`])\/(images|music)\//g, `$1${base}$2/`);
+    },
+  };
+}
+
 export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd(), "");
+  const base = env.VITE_BASE || "/";
   return {
-    plugins: [react(), tailwindcss(), weddingMeta(env.VITE_SITE_URL || wedding.share.siteUrl || "")],
+    base,
+    plugins: [publicBase(base), react(), tailwindcss(), weddingMeta(env.VITE_SITE_URL || wedding.share.siteUrl || "")],
     // In development the photo server runs separately; forward its API calls.
     server: { proxy: { "/api": "http://localhost:8787" }, watch: { ignored: ["**/_test-photos/**", "**/_test-data/**", "**/_mock-drive*/**", "**/_mock-drive-key.json", "**/server/data/**", "**/_backup-*/**"] } },
   };
